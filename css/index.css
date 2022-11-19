@@ -3,16 +3,16 @@
 
 main {
   height: 80vh;
+  width: 100vw;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
 }
 main img {
+  position: absolute;
   height: 100%;
   width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
   z-index: -1;
   object-fit: cover;
 }
