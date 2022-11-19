@@ -1,0 +1,28 @@
+@import url(./default.css);
+@import url(./header.css);
+
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+main h1 {
+  font-size: 5em;
+}
+.maxWidth {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+section {
+  background-color: var(--primary-color);
+}
