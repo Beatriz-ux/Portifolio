@@ -1,0 +1,22 @@
+header {
+  background-color: #031c2591;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+header button {
+  background-color: var(--primary-color);
+  padding: 5px 20px;
+  border: none;
+  color: var(--invert-color);
+  font-weight: bold;
+}
+header a:hover {
+  border-bottom: 1px #fff solid;
+  padding-bottom: 5px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
