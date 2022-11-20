@@ -32,6 +32,14 @@ section {
 section[invert] {
   background-color: var(--background-color);
 }
+section h2 {
+  width: max-content;
+  margin: 0 auto;
+  font-size: 1.7em;
+  padding: 2px 15px;
+  text-align: center;
+  border-bottom: 2px #fff solid;
+}
 .containerSobre {
   display: flex;
   height: 100%;
@@ -43,9 +51,49 @@ section[invert] {
   width: 60%;
   font-size: 1.2em;
 }
-.containerSobre h2 {
-  font-size: 1.7em;
-  padding: 2px 15px;.
+.wrapper {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.wrapperServico {
+  display: flex;
+}
+.servico .card {
+  --shadow-color:#0003;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  background-color: var(--primary-color);
+  box-shadow: 10px 10px 10px var(--shadow-color),
+  -10px 10px 10px var(--shadow-color);
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 250px;
+}
+.servico .card:nth-child(2) {
+  transform: translateY(-20px);
+  --shadow-color:#3d434b7e;
+}
+.card img {
+  width: 120px;
+}
+.card h3 {
+  color: black;
+}
+.servico .content {
+  width: 15vw;
   text-align: center;
-  border-bottom: 2px #fff solid;
+}
+.servico .content p {
+  border-bottom: 1px #fff solid;
+  padding: 15px 0px;
+}
+.content h3 {
+  width: max-content;
+  margin: 0 auto;
+  padding: 4px 20px;
+  background-color: var(--primary-color);
 }
