@@ -6,7 +6,8 @@ header {
   right: 0;
   z-index: 99;
 }
-header button {
+header button,
+input[type="button"] {
   background-color: var(--primary-color);
   padding: 5px 20px;
   border: none;
