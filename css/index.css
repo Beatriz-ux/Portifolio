@@ -32,14 +32,7 @@ section {
 section[invert] {
   background-color: var(--background-color);
 }
-section h2 {
-  width: max-content;
-  margin: 0 auto;
-  font-size: 1.7em;
-  padding: 2px 15px;
-  text-align: center;
-  border-bottom: 2px #fff solid;
-}
+
 .containerSobre {
   display: flex;
   height: 100%;
@@ -109,7 +102,6 @@ section h2 {
   height: 100%;
   display: flex;
   align-items: center;
-
 }
 .portifolio .carousel:nth-child(2) {
   border-left: 1px #fff solid;
@@ -125,7 +117,7 @@ section h2 {
 }
 .portifolio h3 {
   text-align: center;
-  margin: 20px 0px ;
+  margin: 20px 0px;
   font-size: 20px;
  
 }
