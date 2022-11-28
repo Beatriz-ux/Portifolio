@@ -18,7 +18,7 @@ body {
 .maxWidth {
   max-width: 1100px;
   margin: 0 auto;
-  width: 100%;
+  width: 85%;
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -31,3 +31,4 @@ h2 {
   text-align: center;
   border-bottom: 2px #fff solid;
 }
+
