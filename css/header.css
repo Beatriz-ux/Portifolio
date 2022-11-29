@@ -23,3 +23,54 @@ header .container {
   justify-content: space-between;
 }
 
+header .menu button {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  header .container {
+    position: relative;
+  }
+  header .menu .lista {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: #0008;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    transition: all 1s cubic-bezier(.86 , 0 ,.23 , .98);
+  }
+  header a{
+    border-bottom: 2px #fff solid;
+  }
+
+  header .menu .lista.oculto {
+    transform: translateX(200%);
+  }
+  header .menu .lista span {
+    display: none;
+  }
+  header .menu button {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #12bfdd3b;
+    padding: 5px 8px;
+    
+    
+  }
+  header .menu button span {
+    width: 15px;
+    height: 3px;
+    background: #fff;
+    display: block;
+
+  }
+  
+  header .container {
+    align-items: center;
+}
+
+}

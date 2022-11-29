@@ -12,7 +12,8 @@
   color: var(--text-color);
 }
 body {
-  width: calc(100vw - 15px);
+  width: calc(100vw-15px);
+  position: relative;
   overflow-x: hidden;
 }
 .maxWidth {
@@ -20,9 +21,7 @@ body {
   margin: 0 auto;
   width: 85%;
 }
-::-webkit-scrollbar {
-  width: 15px;
-}
+
 h2 {
   width: max-content;
   margin: 0 auto;
@@ -31,4 +30,3 @@ h2 {
   text-align: center;
   border-bottom: 2px #fff solid;
 }
-
